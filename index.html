@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weight Converstion Tool</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="h1 text-center text-info display-4 fw-bold txt-shd">
+            Weight Conversion Tool (Pound to kg)
+          </h1>
+        <div class="row d-flex justify-content-center align-items-center"> 
+        <form class="py-4 col-9 col-sm-3 col-lg-4 col-md-5 col-xl-4 bg-info rounded bx-shd">
+            <p class="fs-4 mb-5">Enter weight value in pounds:</p>
+            <!-- <label>Pounds</label>
+            <input type="number" step=".1"> -->
+            <div
+            class="my-5 d-flex justify-content-center align-items-center"
+          >
+            <label for="feet" class="form-label fs-4 mx-1">Pounds:</label>
+            <input
+              type="number"
+              class="form-control text-center fs-6 me-0 w-50 mx-1"
+              step=".1"
+            />
+          </div>
+            <p class="my-5 lead fs-5 fw-bold ">Your weight in Kilograms is: <span id="result" class=""></span></p>
+            <div class="d-flex justify-content-center align-items-center">
+                <button id="button" class="btn btn-primary buton" type="submit">
+                  Compute
+                </button>
+              </div>
+        </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
